@@ -18,7 +18,7 @@ def roll_to(max_num = max_roll, roll_bool = None):
     turn_score = 0
     roll_bool = yes_or_no("Would you like to roll? ")
     while roll_bool and turn_score < max_num:
-        roll = 11 #random.randint(1, 6)
+        roll = random.randint(1, 6)
         turn_score += roll
         print("You rolled a {}, your turn score is {}.".format(roll, turn_score))
         if turn_score < max_num:
