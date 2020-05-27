@@ -152,11 +152,6 @@ new_game.tie_break()
 
 
 
-#chad = Player("Chad")
-#billie = Player("Billie")
-#tied = [chad, billie]
-#new_game = Game()
-#new_game.tie_break()
 
 
 
